@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Magnum_Fit Lead Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #0a0a0a;
+        color: white;
+        overflow-x: hidden;
+      }
+
+      .glow-primary {
+        box-shadow: 0 0 20px rgba(255, 69, 0, 0.4);
+      }
+      .text-glow {
+        text-shadow: 0 0 10px rgba(255, 69, 0, 0.6);
+      }
+
+      /* Mobile Menu */
+      #mobile-menu {
+        transition: transform 0.4s ease-in-out;
+        transform: translateX(100%);
+      }
+      #mobile-menu.active {
+        transform: translateX(0);
+      }
+
+      /* Form Styling */
+      input:focus,
+      select:focus,
+      textarea:focus {
+        border-color: #ff4500 !important;
+        box-shadow: 0 0 10px rgba(255, 69, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <header
+      class="fixed top-0 w-full z-[100] transition-all duration-300 px-6 py-4 flex justify-between items-center bg-black/80 backdrop-blur-md border-b border-gray-900"
+      id="navbar"
+    >
+      <div class="text-xl md:text-2xl font-black text-white tracking-tighter">
+        <a href="index.html"
+          >MAGNUM<span class="text-[OrangeRed] text-glow">_FIT</span></a
+        >
+      </div>
+
+      <nav
+        class="hidden lg:flex space-x-8 text-xs font-medium uppercase tracking-widest text-gray-400"
+      >
+        <a href="trainers.html" class="hover:text-[OrangeRed] transition"
+          >Trainers</a
+        >
+        <a href="program.html" class="hover:text-[OrangeRed] transition"
+          >Program</a
+        >
+        <a href="facility.html" class="hover:text-[OrangeRed] transition"
+          >Facility</a
+        >
+        <a href="contact.html" class="text-[OrangeRed] transition">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <a
+          href="contact.html"
+          class="hidden sm:block bg-[OrangeRed] text-white px-5 py-2 rounded font-bold text-sm hover:scale-105 transition glow-primary"
+        >
+          JOIN NOW
+        </a>
+        <button class="lg:hidden text-white" id="menu-btn">
+          <i data-lucide="menu" class="w-8 h-8"></i>
+        </button>
+      </div>
+    </header>
+
+    <div
+      id="mobile-menu"
+      class="fixed top-0 right-0 h-full w-[80%] bg-black z-[101] p-10 flex flex-col space-y-8 border-l border-gray-800 lg:hidden shadow-2xl"
+    >
+      <button class="self-end" id="close-btn">
+        <i data-lucide="x" class="w-8 h-8"></i>
+      </button>
+      <a
+        href="index.html"
+        class="text-3xl font-black border-b border-gray-900 pb-2"
+        >HOME</a
+      >
+      <a
+        href="trainers.html"
+        class="text-3xl font-black border-b border-gray-900 pb-2 text-white"
+        >TRAINERS</a
+      >
+      <a
+        href="program.html"
+        class="text-3xl font-black border-b border-gray-900 pb-2 text-white"
+        >PROGRAM</a
+      >
+      <a
+        href="facility.html"
+        class="text-3xl font-black border-b border-gray-900 pb-2 text-white"
+        >FACILITY</a
+      >
+      <a
+        href="contact.html"
+        class="text-3xl font-black border-b border-gray-900 pb-2 text-[OrangeRed]"
+        >CONTACT</a
+      >
+    </div> -->
+
+
+<header class="fixed top-0 w-full z-[100] transition-all duration-300 px-6 py-4 flex justify-between items-center bg-black/80 backdrop-blur-md border-b border-gray-900" id="navbar">
+    <div class="text-xl md:text-2xl font-black text-white tracking-tighter cursor-pointer">
+        <a href="index.html" class="flex items-center">
+            MAGNUM<span class="text-[OrangeRed] text-glow">_FIT</span>
+        </a>
+    </div>
+    
+    <nav class="hidden lg:flex space-x-8 text-xs font-medium uppercase tracking-widest text-gray-400">
+        <a href="../index.html" class="hover:text-[OrangeRed] transition">Home</a>
+        <a href="trainers.html" class="hover:text-[OrangeRed] transition">Trainers</a>
+        <a href="program.html" class="hover:text-[OrangeRed] transition">Program</a>
+        <a href="facility.html" class="hover:text-[OrangeRed] transition">Facility</a>
+        <a href="contact.html" class="hover:text-[OrangeRed] transition">Contact</a>
+    </nav>
+
+    <div class="flex items-center gap-4">
+        <a href="contact.html" class="hidden sm:block bg-[OrangeRed] text-white px-5 py-2 rounded font-bold text-sm hover:scale-105 transition glow-primary">
+            JOIN NOW
+        </a>
+        <button class="lg:hidden text-white" id="menu-btn">
+            <i data-lucide="menu" class="w-8 h-8"></i>
+        </button>
+    </div>
+</header>
+
+<div id="mobile-menu" class="fixed top-0 right-0 h-full w-[80%] bg-black z-[101] p-10 flex flex-col space-y-8 border-l border-gray-800 lg:hidden shadow-2xl">
+    <button class="self-end" id="close-btn"><i data-lucide="x" class="w-8 h-8"></i></button>
+    
+    <div class="flex flex-col space-y-6 mt-10">
+        <a href="index.html" class="text-3xl font-black border-b border-gray-900 pb-2 hover:text-[OrangeRed] transition">HOME</a>
+        <a href="trainers.html" class="text-3xl font-black border-b border-gray-900 pb-2 hover:text-[OrangeRed] transition">TRAINERS</a>
+        <a href="program.html" class="text-3xl font-black border-b border-gray-900 pb-2 hover:text-[OrangeRed] transition">PROGRAM</a>
+        <a href="facility.html" class="text-3xl font-black border-b border-gray-900 pb-2 hover:text-[OrangeRed] transition">FACILITY</a>
+        <a href="contact.html" class="text-3xl font-black border-b border-gray-900 pb-2 hover:text-[OrangeRed] transition">CONTACT</a>
+    </div>
+    
+    <a href="contact.html" class="bg-[OrangeRed] text-center py-5 rounded font-black text-xl mt-auto shadow-lg">JOIN THE CLUB</a>
+</div>
+
+    <section class="pt-32 pb-20 px-6 md:px-20 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div class="flex flex-col justify-center">
+          <h2
+            class="text-[OrangeRed] font-bold tracking-[0.3em] uppercase text-sm mb-4 italic"
+          >
+            Get in the Game
+          </h2>
+          <h1
+            class="text-5xl md:text-8xl font-black uppercase mb-8 leading-none tracking-tighter italic"
+          >
+            REACH <br />
+            <span class="text-[OrangeRed] italic">OUT</span>
+          </h1>
+
+          <p class="text-gray-400 text-lg mb-12 max-w-md">
+            Have questions about our memberships, elite training programs, or
+            facility access? Our team is ready to help you start your
+            transformation.
+          </p>
+
+          <div class="space-y-8">
+            <div class="flex items-center gap-6 group">
+              <div
+                class="w-14 h-14 rounded-full bg-[#111] border border-gray-800 flex items-center justify-center group-hover:bg-[OrangeRed] transition duration-500"
+              >
+                <i data-lucide="phone" class="text-white"></i>
+              </div>
+              <div>
+                <p
+                  class="text-gray-500 text-xs uppercase tracking-widest font-bold"
+                >
+                  Call Us Directly
+                </p>
+                <p class="text-xl font-black">+1 (555) MAGNUM-FIT</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-6 group">
+              <div
+                class="w-14 h-14 rounded-full bg-[#111] border border-gray-800 flex items-center justify-center group-hover:bg-[OrangeRed] transition duration-500"
+              >
+                <i data-lucide="map-pin" class="text-white"></i>
+              </div>
+              <div>
+                <p
+                  class="text-gray-500 text-xs uppercase tracking-widest font-bold"
+                >
+                  The Arena Location
+                </p>
+                <p class="text-xl font-black italic uppercase">
+                  123 Fitness Ave, Jalandhar
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-6 group">
+              <div
+                class="w-14 h-14 rounded-full bg-[#111] border border-gray-800 flex items-center justify-center group-hover:bg-[OrangeRed] transition duration-500"
+              >
+                <i data-lucide="mail" class="text-white"></i>
+              </div>
+              <div>
+                <p
+                  class="text-gray-500 text-xs uppercase tracking-widest font-bold"
+                >
+                  Inquiries
+                </p>
+                <p class="text-xl font-black">hello@magnumfit.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div
+            class="absolute -inset-2 bg-gradient-to-r from-[OrangeRed] to-orange-600 rounded-3xl blur opacity-10"
+          ></div>
+          <div
+            class="relative bg-[#111] border border-gray-800 p-8 md:p-12 rounded-3xl"
+          >
+            <h3 class="text-2xl font-black uppercase italic mb-8">
+              Secure Your <span class="text-[OrangeRed]">Free Trial</span>
+            </h3>
+
+            <form action="#" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  class="w-full bg-black border border-gray-800 p-4 rounded text-white outline-none transition"
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  class="w-full bg-black border border-gray-800 p-4 rounded text-white outline-none transition"
+                />
+              </div>
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="w-full bg-black border border-gray-800 p-4 rounded text-white outline-none transition"
+                required
+              />
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                class="w-full bg-black border border-gray-800 p-4 rounded text-white outline-none transition"
+                required
+              />
+
+              <select
+                class="w-full bg-black border border-gray-800 p-4 rounded text-gray-400 outline-none transition appearance-none"
+              >
+                <option value="">Select Interest</option>
+                <option value="bodybuilding">Bodybuilding</option>
+                <option value="weightloss">Weight Loss</option>
+                <option value="mma">MMA Striking</option>
+                <option value="bhangra">Bhangra Fitness</option>
+              </select>
+
+              <textarea
+                placeholder="Tell us about your fitness goals..."
+                rows="4"
+                class="w-full bg-black border border-gray-800 p-4 rounded text-white outline-none transition"
+              ></textarea>
+
+              <button
+                type="submit"
+                class="w-full bg-[OrangeRed] text-white py-5 rounded font-black uppercase tracking-widest hover:scale-[1.02] active:scale-95 transition glow-primary shadow-xl"
+              >
+                Send Request
+              </button>
+            </form>
+            <p
+              class="text-[10px] text-gray-600 mt-6 text-center uppercase tracking-widest"
+            >
+              By submitting, you agree to our Terms of Service.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black py-16 px-6 md:px-20 border-t border-gray-900 mt-20">
+      <div
+        class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-12"
+      >
+        <div>
+          <h3
+            class="text-2xl font-black mb-6 uppercase tracking-tighter italic"
+          >
+            MAGNUM<span class="text-[OrangeRed]">_FIT</span>
+          </h3>
+          <p class="text-gray-500 leading-relaxed">
+            Built on the foundations of discipline, science, and community. We
+            don't just change bodies; we change mindsets. Experience the Magnum
+            standard.
+          </p>
+        </div>
+        <div>
+          <h4 class="font-bold mb-6 uppercase tracking-widest">Our Values</h4>
+          <ul class="text-gray-500 space-y-2">
+            <li>• Radical Transparency</li>
+            <li>• Results-Driven Coaching</li>
+            <li>• Inclusive Elite Environment</li>
+            <li>• Safety & Integrity</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold mb-6 uppercase tracking-widest text-white">
+            Follow the Progress
+          </h4>
+          <div class="flex space-x-4">
+            <a
+              href="#"
+              class="w-10 h-10 border border-gray-700 flex items-center justify-center rounded-full hover:border-[OrangeRed] transition hover:text-[OrangeRed]"
+              ><i data-lucide="instagram" class="w-5 h-5"></i
+            ></a>
+            <a
+              href="#"
+              class="w-10 h-10 border border-gray-700 flex items-center justify-center rounded-full hover:border-[OrangeRed] transition hover:text-[OrangeRed]"
+              ><i data-lucide="facebook" class="w-5 h-5"></i
+            ></a>
+            <a
+              href="#"
+              class="w-10 h-10 border border-gray-700 flex items-center justify-center rounded-full hover:border-[OrangeRed] transition hover:text-[OrangeRed]"
+              ><i data-lucide="youtube" class="w-5 h-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="max-w-7xl mx-auto text-center text-gray-700 text-sm border-t border-gray-900 pt-8"
+      >
+        &copy; 2026 Magnum_Fit. Designed for Elite Performance.
+      </div>
+    </footer>
+
+    <script>
+      lucide.createIcons();
+
+      // Navbar Scroll Effect
+      const nav = document.getElementById("navbar");
+      window.onscroll = () => {
+        if (window.scrollY > 50) nav.classList.add("bg-black", "py-2");
+        else nav.classList.remove("bg-black", "py-2");
+      };
+
+      // Mobile Menu Logic
+      const menuBtn = document.getElementById("menu-btn");
+      const closeBtn = document.getElementById("close-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () =>
+        mobileMenu.classList.add("active"),
+      );
+      closeBtn.addEventListener("click", () =>
+        mobileMenu.classList.remove("active"),
+      );
+
+      // Auto-close menu when clicking links
+      mobileMenu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () =>
+          mobileMenu.classList.remove("active"),
+        );
+      });
+    </script>
+  </body>
+</html>
