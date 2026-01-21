@@ -1,4 +1,4 @@
-
+ lucide.createIcons();
 
 // Navbar Interaction
 const nav = document.getElementById("navbar");
